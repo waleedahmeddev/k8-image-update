@@ -20,8 +20,8 @@ spec:
         app: app
     spec:
       containers:
-      - name: alpine
-        image: alpine:3.18
-        command:
-        - cat
-        tty: true
+        - name: alpine
+          image: alpine:3.18
+          command:
+            - cat
+          tty: true
